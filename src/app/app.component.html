@@ -1,4 +1,16 @@
-<h2>Built-in structural directives</h2>
+
+<h1>Built-in Directives</h1>
+<hr />
+<h2 id="event-binding">Using NgClass Built in Directive</h2>
+<!-- Adds and removes a set of CSS classes. -->
+<div [ngClass]="isSpecial ? 'special' : ''">This div is special</div>
+<hr />
+<h2>Using NgStyle Built in Directive</h2>
+<!-- Use NgStyle to set multiple inline styles simultaneously, based on the state of the component. -->
+<div [ngStyle]="currentStyles">
+  This div is initially italic, normal weight, and extra large (24px).
+</div>
+<h1>Built-in structural directives</h1>
 <h3 id="ngIf">NgIf Binding</h3>
 <div>
   <p>If isActive is true, app-item-detail will render:</p>
@@ -89,7 +101,7 @@
 
 <hr />
 
-<h2>Attribute Directives</h2>
+<h1>Attribute Directives</h1>
 <p appHighlight>Highlight me!</p>
 <h4>Passing values into an attribute directive</h4>
 <p [appHighlight]="color">Highlight me!</p>
@@ -103,7 +115,7 @@
 
 <hr />
 <hr />
-<h3>Unless Directive</h3>
+<h1>Unless Directive</h1>
 <p *appUnless="condition">
   (A) This paragraph is displayed because the condition is false.
 </p>

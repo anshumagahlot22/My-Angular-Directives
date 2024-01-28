@@ -73,7 +73,9 @@ img {
 	margin-top: 10px;
 	display: block;
 }
-
+.special{
+	background-color: aqua;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
